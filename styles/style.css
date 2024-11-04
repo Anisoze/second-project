@@ -25,6 +25,10 @@
   background-color: #f2f2f2;
 }
 
+.page_link {
+  color: #2f80ed
+}
+
 .page_margin_l {
     margin-bottom: 100px;
 }
@@ -63,9 +67,6 @@
     font-size: 18px;
     font-weight: normal;}
 
-.header__link {
-    color: #2f80ed;
-}
 
 .header__main-illustration {
   width: 765px;
@@ -88,6 +89,63 @@
   background-color:#2f80ed;
 }
 
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  
+  margin: 0 auto;
+  width: 80%;
+
+}
+
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  padding-top: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.page_no-margin {
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.page_margin_s {
+  margin-bottom: 30px;
+}
 
 .page_margin_m {
     margin-bottom: 90px;
