@@ -8,8 +8,8 @@
 </head>
 
 <body>
-  <div class="root">
-    <header class="header">
+  <div class="page">
+    <header class="header header_overflow_hidden">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
@@ -17,7 +17,8 @@
         <a href="#description" class="header__link">Узнать →</a>
       </p>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <div class="rotation header__square-pic rotation__square-pic">
+      </div>
     </header>
 
     <main class="content">
@@ -38,10 +39,49 @@
           </div>
       </section>
 
+      <section class="techniques">
+        <h2 class="section-title section-title_margin_top-l">Техники обучения</h2>
+        <h4 class="section-subtitle">Пять практик от Барбары Оакли</h4>
+        <div class="cards">
+          <div class="cards__item">
+            <div class="cards__image cards__image_content_attention"></div>
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </div>
+          <div class="cards__item">
+            <div class="cards__image cards__image_content_recall"></div>
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </div>
+          <div class="cards__item">
+            <div class="cards__image cards__image_content_interliving"></div>
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </div>
+          <div class="cards__item">
+            <div class="cards__image cards__image_content_question"></div>
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </div>
+          <div class="cards__item">
+            <div class="cards__image cards__image_content_competence"></div>
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
+        <a href="#0" class="feynman__link">Подробнее →</a>
+        <div class="feynman__img"></div>
+      </section>
+
       <section class="digits">
         <h2 class="section-title section-title_margin_top-l">Цифры и факты</h2>
         <h4 class="section-subtitle">Про учёбу и мозг</h4>
-        <div class="table table_margin_bottom-l">
+        <div class="table">
           <div class="table__cell table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
             <p class="table__text">Число нейронов в мозге человека</p>
@@ -77,13 +117,6 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </div>
         </div>
-      </section>
-
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
-        <a href="#0" class="feynman__link">Подробнее →</a>
-        <div class="feynman__img"></div>
       </section>
 
       <section class="kaufman">
