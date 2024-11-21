@@ -1,8 +1,8 @@
-.techniques {
+.khan__container {
   width: 80%;
-  align-items: center;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding-top: 100px;
+  align-items: start;
+  justify-content: start;
 }

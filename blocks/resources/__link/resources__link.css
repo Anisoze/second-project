@@ -1,0 +1,13 @@
+.resources__link {
+  width: 270px;
+  height: 38px;
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.resources__link:hover {
+  opacity: 0.7;
+}
